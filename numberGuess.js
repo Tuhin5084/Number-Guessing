@@ -45,7 +45,7 @@ function calculateArea(){
 
         guessAllNumber.push(guessInput);
 
-        if(guessAllNumber.length == 5){
+        if(guessAllNumber.length == 10){
             randomValue.innerText = randomInput;
             alert('Game Over');
             
